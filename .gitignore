@@ -1,0 +1,29 @@
+# ========================
+# GERAL
+# ========================
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*.dll
+
+# ========================
+# IDEs e Ferramentas
+# ========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ========================
+# FRONTEND ( Typescript / React Vite )
+# ========================
+client/.vs/
+client/node_modules
+
+# ========================
+# DOCKER
+# ========================
+*.pid
+*.sock
+.env.docker
+.env.local
