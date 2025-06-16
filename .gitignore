@@ -6,6 +6,7 @@
 *.bak
 *.swp
 *.dll
+*.env
 
 # ========================
 # IDEs e Ferramentas
