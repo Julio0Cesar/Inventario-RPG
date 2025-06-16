@@ -1,8 +1,11 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material"
 import type { IHomeCard } from "../configs/types/IHomeCard"
 import type { FC } from "react"
+import { useNavigate } from "react-router-dom"
 
-const MultiAreaCard: FC<IHomeCard> = ({ imagem, titulo, descricao }) => {
+const MultiAreaCard: FC<IHomeCard> = ({ imagem, titulo, descricao, link }) => {
+  const navigate = useNavigate()
+  const handleClick = () =>{navigate(link)}
   return (
     <Card elevation={20} className="m-4 max-w-lg p-4 !bg-gray-50 !rounded-lg !transition-all !duration-300 hover:-translate-y-0.5">
         <CardMedia
@@ -21,7 +24,7 @@ const MultiAreaCard: FC<IHomeCard> = ({ imagem, titulo, descricao }) => {
           </Typography>
         </CardContent>
       <CardActions>
-        <Button size="small" color="primary" variant="contained">
+        <Button onClick={handleClick} size="small" color="primary" variant="contained">
           Acessar
         </Button>
       </CardActions>

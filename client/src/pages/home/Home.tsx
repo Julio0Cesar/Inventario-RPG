@@ -12,7 +12,7 @@ const Home = () => {
             <Box className="my-20">
                 <Grid container spacing={8} justifyContent="center" alignItems="center">
                     {cardsData.map((item: IHomeCard, index: number) =>(
-                        <MultiAreaCard key={index} imagem={item.imagem} titulo={item.titulo} descricao={item.descricao}/>
+                        <MultiAreaCard key={index} imagem={item.imagem} titulo={item.titulo} descricao={item.descricao} link={item.link}/>
                     ))}
                 </Grid>
             </Box>
