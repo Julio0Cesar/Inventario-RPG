@@ -1,32 +1,32 @@
 [
   {
-    "imagem": "https://img.freepik.com/fotos-gratis/fundo-de-folhas-verdes-tropicais_53876-88891.jpg",
-    "titulo": "Card 1",
-    "descricao": "Descrição de um texto sobre algo 1",
-    "link": "/1"
+    "imagem": "../../../../public/images/cards/mapa.jpg",
+    "titulo": "Mapas",
+    "descricao": "Explore os reinos, cidades e masmorras. Acesse todos os mapas da sua campanha em um só lugar.",
+    "link": "/mapas"
   },
   {
-    "imagem": "https://img.freepik.com/fotos-gratis/fundo-de-folhas-verdes-tropicais_53876-88891.jpg",
-    "titulo": "Card 2",
-    "descricao": "Descrição de um texto sobre algo 2",
-    "link": "/2"
+    "imagem": "../../../../public/images/cards/personagens.jpg",
+    "titulo": "Personagens",
+    "descricao": "Consulte fichas, atributos e histórias dos personagens. Veja quem faz parte dessa aventura.",
+    "link": "/personagens"
   },
   {
-    "imagem": "https://img.freepik.com/fotos-gratis/fundo-de-folhas-verdes-tropicais_53876-88891.jpg",
-    "titulo": "Card 3",
-    "descricao": "Descrição de um texto sobre algo 3",
-    "link": "/3"
+    "imagem": "../../../../public/images/cards/historia.jpg",
+    "titulo": "História",
+    "descricao": "Reviva os eventos, arcos e tramas da sua campanha. Todo o lore reunido aqui.",
+    "link": "/historia"
   },
   {
-    "imagem": "https://img.freepik.com/fotos-gratis/fundo-de-folhas-verdes-tropicais_53876-88891.jpg",
-    "titulo": "Card 4",
-    "descricao": "Descrição de um texto sobre algo 4",
-    "link": "/4"
+    "imagem": "../../../../public/images/cards/itens.jpg",
+    "titulo": "Itens",
+    "descricao": "Visualize todos os itens mágicos, armas, artefatos e equipamentos disponíveis no mundo.",
+    "link": "/itens"
   },
   {
-    "imagem": "https://img.freepik.com/fotos-gratis/fundo-de-folhas-verdes-tropicais_53876-88891.jpg",
-    "titulo": "Card 5",
-    "descricao": "Descrição de um texto sobre algo 5",
-    "link": "/5"
+    "imagem": "../../../../public/images/cards/ficha.jpg",
+    "titulo": "Ficha do Jogador",
+    "descricao": "Acompanhe todos os detalhes do seu personagem — atributos, perícias, habilidades, magias, status e evolução. Sua jornada começa aqui.",
+    "link": "/inventario"
   }
 ]

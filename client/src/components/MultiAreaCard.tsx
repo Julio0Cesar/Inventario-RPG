@@ -9,9 +9,8 @@ const MultiAreaCard: FC<IHomeCard> = ({ imagem, titulo, descricao, link }) => {
   return (
     <Card elevation={20} className="m-4 max-w-lg p-4 !bg-gray-50 !rounded-lg !transition-all !duration-300 hover:-translate-y-0.5">
         <CardMedia
-          className="rounded-lg"
+          className="aspect-video w-full object-cover rounded-lg"
           component="img"
-          height="140"
           image={imagem}
           alt="green iguana"
         />
