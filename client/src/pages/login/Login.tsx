@@ -4,6 +4,7 @@ import { useState } from "react"
 import { useNavigate } from 'react-router-dom'
 import { criarHandleChange } from '../../utils/formUtils'
 import { autenticarLoginUsuario } from '../../services/users/authenticarLoginUserService'
+import { useAuth } from '../../hooks/useAuth'
 
 const Login = () => {
     const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
@@ -17,6 +18,7 @@ const Login = () => {
         lembrar: false
     })
 
+    const { login } = useAuth()
     const handleChange = criarHandleChange(setFormData)
     const handleLogin = async (e: React.FormEvent) => {
         e.preventDefault()
@@ -24,13 +26,14 @@ const Login = () => {
         setLoading(true)
 
         try {
-            autenticarLoginUsuario(formData.email, formData.senha)
+            const response = await autenticarLoginUsuario(formData.email, formData.senha)
             await delay(500)
+            login(response)
             
+            navigate("/")
         } catch (error) {
             setError((error as Error).message)
         } finally{
-            navigate("/")
             setLoading(false)
         }
     }
@@ -100,7 +103,7 @@ const Login = () => {
               Entrar
             </Button>
             <div className='mt-4'>
-                {error && <p className="text-red-500 mb-4">{error}</p>}
+                {error && <p className="text-red-500">{error}</p>}
             </div>
           </Box>
         </CardContent>

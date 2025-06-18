@@ -1,7 +1,8 @@
+import type { IHomeCard } from "../../configs/interfaces/IHomeCard"
+import { getCardsData } from "../../configs/reqData"
 import { Box, Container } from "@mui/material"
-import type { IHomeCard } from "../../configs/types/IHomeCard";
-import { getCardsData } from "../../configs/reqData";
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/Grid'
+import MenuFlutuante from "./components/MenuFlutuante"
 import MultiAreaCard from "../../components/MultiAreaCard"
 
 const Home = () => {
@@ -10,11 +11,12 @@ const Home = () => {
     return(
         <Container className="min-h-screen !max-w-full flex items-center justify-center">
             <Box className="my-20">
-                <Grid container spacing={8} justifyContent="center" alignItems="center">
+                <Grid container spacing={8} justifyContent="center" alignItems="center" className='!relative'>
                     {cardsData.map((item: IHomeCard, index: number) =>(
                         <MultiAreaCard key={index} imagem={item.imagem} titulo={item.titulo} descricao={item.descricao} link={item.link}/>
                     ))}
                 </Grid>
+                <MenuFlutuante/>
             </Box>
         </Container>
     )

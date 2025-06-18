@@ -1,5 +1,5 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material"
-import type { IHomeCard } from "../configs/types/IHomeCard"
+import type { IHomeCard } from "../configs/interfaces/IHomeCard"
 import type { FC } from "react"
 import { useNavigate } from "react-router-dom"
 
