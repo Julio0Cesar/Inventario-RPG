@@ -1,0 +1,12 @@
+[
+  {
+    "usuario": "Mestre",
+    "email": "mestre@rpg.com",
+    "senha": "senha111"
+  },
+  {
+    "usuario": "Player",
+    "email": "player@rpg.com",
+    "senha": "senha111"
+  }
+]

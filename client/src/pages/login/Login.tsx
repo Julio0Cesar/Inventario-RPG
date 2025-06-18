@@ -3,6 +3,7 @@ import { Visibility, VisibilityOff } from '@mui/icons-material'
 import { useState } from "react"
 import { useNavigate } from 'react-router-dom'
 import { criarHandleChange } from '../../utils/formUtils'
+import { autenticarLoginUsuario } from '../../services/users/authenticarLoginUserService'
 
 const Login = () => {
     const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
@@ -23,7 +24,8 @@ const Login = () => {
         setLoading(true)
 
         try {
-            await delay(1000)
+            autenticarLoginUsuario(formData.email, formData.senha)
+            await delay(500)
             
         } catch (error) {
             setError((error as Error).message)
