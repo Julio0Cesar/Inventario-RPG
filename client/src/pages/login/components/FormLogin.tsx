@@ -4,7 +4,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { useAuth } from "../../../hooks/useAuth"
 import { criarHandleChange } from "../../../utils/formUtils"
-import { autenticarLoginUsuario } from "../../../services/users/authenticarLoginUserService"
+import { autenticarLogin } from "../../../services/users/authenticarLoginService"
 
 const FormLogin = () => {
     const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
@@ -26,7 +26,7 @@ const FormLogin = () => {
         setLoading(true)
 
         try {
-            const response = await autenticarLoginUsuario(formData.email, formData.senha)
+            const response = await autenticarLogin(formData.email, formData.senha)
             await delay(500)
             login(response)
             

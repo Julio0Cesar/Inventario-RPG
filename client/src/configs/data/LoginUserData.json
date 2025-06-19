@@ -1,12 +1,24 @@
-[
-  {
-    "usuario": "Mestre",
-    "email": "mestre@rpg.com",
-    "senha": "senha111"
-  },
-  {
-    "usuario": "Player",
-    "email": "player@rpg.com",
-    "senha": "senha111"
-  }
-]
+{
+  "usuarios": [
+    {
+      "nome": "Player1",
+      "email": "player1@rpg.com",
+      "senha": "senha111",
+      "role": "usuario"
+    },
+    {
+      "nome": "Player2",
+      "email": "player2@rpg.com",
+      "senha": "senha111",
+      "role": "usuario"
+    }
+  ],
+  "aministradores": [
+    {
+      "nome": "Mestre",
+      "email": "mestre@rpg.com",
+      "senha": "senha111",
+      "role": "adm"
+    }
+  ]
+}

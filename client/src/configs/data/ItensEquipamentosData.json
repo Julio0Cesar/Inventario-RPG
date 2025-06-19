@@ -1,0 +1,102 @@
+{
+    "amuleto": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": ""
+    }],
+    "armadura": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": "",
+        "ca": 0,
+        "tipo": ""
+    }],
+    "capa": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": ""
+    }],
+    "calcado": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": ""
+    }],
+    "chapeu": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": ""
+    }],
+    "luva": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": ""
+    }],
+    "instrumento": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": ""
+    }],
+    "anel": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": ""
+    }],
+    "escudo": [{
+        "nome": "",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": "",
+        "ca": 0
+    }],
+    "arma":[{
+        "nome": "Arma",
+        "raridade": "",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": ["",""],
+        "imagem": "",
+        "descricao": "",
+        "tipo": "",
+        "modalidade": "",
+        "alcance": "",
+        "empunhadura": "",
+        "dano": "",
+        "tipoDano": "",
+        "encantamento": ["",""]
+    }]
+}

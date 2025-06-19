@@ -11,7 +11,7 @@ const Home = () => {
     return(
         <Container className="min-h-screen !max-w-full flex items-center justify-center">
             <Box className="my-20">
-                <Grid container spacing={8} justifyContent="center" alignItems="center" className='!relative'>
+                <Grid container spacing={8} justifyContent="center" alignItems="center">
                     {cardsData.map((item: IHomeCard, index: number) =>(
                         <MultiAreaCard key={index} imagem={item.imagem} titulo={item.titulo} descricao={item.descricao} link={item.link}/>
                     ))}

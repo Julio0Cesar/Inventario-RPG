@@ -1,10 +1,11 @@
 import { getLoginUsers } from "../../configs/reqData"
 import { getErrorMessage } from "../../utils/errorHandler"
 
-export const autenticarLoginUsuario = async (email: string, senha: string)=>{
+export const autenticarLogin = async (email: string, senha: string)=>{
     try {
         const data = getLoginUsers()
-        const usuarioEncontrado = data.find((user) => user.email === email && user.senha === senha)
+        const todosUsuarios = [...data.usuarios, ...data.aministradores]
+        const usuarioEncontrado = todosUsuarios.find((user) => user.email === email && user.senha === senha)
 
         if (!usuarioEncontrado) throw new Error("E-mail ou senha inválida")    
         return usuarioEncontrado

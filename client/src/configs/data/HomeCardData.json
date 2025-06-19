@@ -27,6 +27,6 @@
     "imagem": "../../../../public/images/cards/ficha.jpg",
     "titulo": "Ficha do Jogador",
     "descricao": "Acompanhe todos os detalhes do seu personagem — atributos, perícias, habilidades, magias, status e evolução. Sua jornada começa aqui.",
-    "link": "/inventario"
+    "link": "/ficha"
   }
 ]

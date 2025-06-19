@@ -1,7 +1,7 @@
-import type { ILoginUser } from "../interfaces/ILoginUser"
+import type { ILogin } from "../interfaces/ILogin"
 
 export type AuthStore = {
-  user: ILoginUser | null
-  login: (user: ILoginUser) => void
+  user: ILogin | null
+  login: (user: ILogin) => void
   logout: () => void
 }
