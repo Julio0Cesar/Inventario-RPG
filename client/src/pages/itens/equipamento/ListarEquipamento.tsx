@@ -55,7 +55,7 @@ const ListarEquipamento = () => {
                     <TabelaEquipamentos 
                         dados={itens} 
                         categoria={categoria}
-                        colunas={["encantamento", "ca", "desvantagem", "dano", "tipoDano", "peso", "preco", "efeitos"]}
+                        colunas={["encantamento", "ca", "bonusCa", "desvantagem", "dano", "tipoDano", "peso", "preco", "efeitos"]}
                     />
                 )}
                 {error && <p className="text-red-500">{error}</p>}

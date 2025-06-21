@@ -1,5 +1,7 @@
 import type { IArma, IArmadura, IEquipamentos, IEscudo } from '../../../../configs/interfaces/IEquipamentos'
 import { Box, CardContent, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
+import { nomeColunaMap } from './interface/nomeColunaMap'
+
 
 type Props = {
   dados: IEquipamentos[] | IArma[] | IArmadura[] | IEscudo[]
@@ -49,7 +51,7 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
             </TableCell>
             {colunasParaExibir.map((coluna) => (
               <TableCell key={coluna} align="center" className="capitalize !text-white">
-                {coluna}
+                {nomeColunaMap[coluna] || coluna}
               </TableCell>
             ))}
           </TableRow>

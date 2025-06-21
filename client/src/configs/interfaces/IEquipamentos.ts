@@ -15,7 +15,7 @@ export interface IArmadura extends IEquipamentos {
 }
 
 export interface IEscudo extends IEquipamentos {
-  ca: number
+  bonusCa: number
 }
 
 export interface IArma extends IEquipamentos {

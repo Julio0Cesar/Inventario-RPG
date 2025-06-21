@@ -232,7 +232,7 @@
         "efeitos": [""],
         "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-ferro.png",
         "descricao": "Este espesso escudo de carvalho é reforçado com uma estrutura de ferro com martelo áspero.",
-        "ca": 2
+        "bonusCa": 2
     },{
         "nome": "Escudo de Metal",
         "raridade": "comum",
@@ -241,7 +241,7 @@
         "efeitos": [""],
         "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-metal.png",
         "descricao": "Embora o metal seja apenas de qualidade moderada, um punho orgulhoso e flamejante decora a frente deste escudo.",
-        "ca": 2
+        "bonusCa": 2
     },{
         "nome": "Escudo Enferrujado",
         "raridade": "comum",
@@ -250,7 +250,7 @@
         "efeitos": [""],
         "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-enferrujado.png",
         "descricao": "Bom para defender da flatulência perdida, mas é isso.",
-        "ca": 2
+        "bonusCa": 2
     }],
     "arma":[{
         "nome": "Rapieira Pactuada",
