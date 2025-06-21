@@ -1,102 +1,301 @@
 {
     "amuleto": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": ""
+        "nome": "Amuleto Barnabu",
+        "raridade": "comum",
+        "peso": 0.05,
+        "preco": 25,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/amuleto/amuleto-barnabu.png",
+        "descricao": "Colar o Mestre GNoll deu Barnabus quando ela o conheceu."
+    },{
+        "nome": "Amuleto de bronze",
+        "raridade": "comum",
+        "peso": 0.05,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/amuleto/amuleto-bronze.png",
+        "descricao": "Embora brilhe intensamente, este colar cheira distintamente a ferrugem."
+    },{
+        "nome": "Pingente de bronze",
+        "raridade": "comum",
+        "peso": 0.05,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/amuleto/pingente-bronze.png",
+        "descricao": "Os elos de bronze entrelaçados deste colar tilintam suavemente toda vez que você se move."
     }],
     "armadura": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": "",
-        "ca": 0,
-        "tipo": ""
+        "nome": "Armadura de couro",
+        "raridade": "comum",
+        "peso": 4.5,
+        "preco": 40,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/armadura/armadura-couro.png",
+        "descricao": "Manchas escuras e confusas revestem as cavas do peitoral de couro bem usado.",
+        "ca": 11,
+        "tipo": "Armadura Leve",
+        "desvantagem": "não"
+    },{
+        "nome": "Armadura de couro",
+        "raridade": "comum",
+        "peso": 4.5,
+        "preco": 40,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/armadura/armadura-couro-2.png",
+        "descricao": "Manchas escuras e confusas revestem as cavas do peitoral de couro bem usado.",
+        "ca": 11,
+        "tipo": "Armadura Leve",
+        "desvantagem": "não"
+    },{
+        "nome": "Armadura de couro",
+        "raridade": "comum",
+        "peso": 4.5,
+        "preco": 40,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/armadura/armadura-couro-3.png",
+        "descricao": "Manchas escuras e confusas revestem as cavas do peitoral de couro bem usado.",
+        "ca": 11,
+        "tipo": "Armadura Leve",
+        "desvantagem": "não"
     }],
     "capa": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": ""
+        "nome": "Capa",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/capa/capa.png",
+        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar."
+    },{
+        "nome": "Capa",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/capa/capa-2.png",
+        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar."
+    },{
+        "nome": "Capa",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/capa/capa-3.png",
+        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar."
     }],
     "calcado": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": ""
+        "nome": "Botas bem cuidadas",
+        "raridade": "comum",
+        "peso": 0.55,
+        "preco": 15,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/calcado/bota-bem-cuidada.png",
+        "descricao": "Essas botas são bem conservadas e limpas, embora suas solas sejam finas devido ao desgaste."
+    },{
+        "nome": "Botas habilmente calçadas",
+        "raridade": "comum",
+        "peso": 0.55,
+        "preco": 5,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/calcado/bota-habilmente-calcada.png",
+        "descricao": "Feitas de couro resistente e bem usado, essas botas sobreviveram a anos de uso e podem sobreviver a muitos mais."
+    },{
+        "nome": "Botas de couro drow",
+        "raridade": "comum",
+        "peso": 0.55,
+        "preco": 15,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/calcado/bota-de-couro-drow.png",
+        "descricao": "Linhas rasas em forma de teia foram colocadas nessas botas de couro cozido."
     }],
     "chapeu": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": ""
+        "nome": "Chapéu de abas",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 5,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/chapeu/chapeu-abas.png",
+        "descricao": "Este chapéu feiticeiro tem um coelhinho bordado dentro de seu forro - o coelho é chamado de bola de neve, e uma vez que ele foi perdido, para nunca ser encontrado."
+    },{
+        "nome": "Chapéu Bordado",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 5,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/chapeu/chapeu-bordado.png",
+        "descricao": "Asas prateadas espalhadas sobre o couro rígido e inflexível."
+    },{
+        "nome": "Chapéu foleiro",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 5,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/chapeu/chapeu-foleiro.png",
+        "descricao": "Para o contador de histórias exigente, o fiandeiro de histórias e a personalidade pavão."
     }],
     "luva": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": ""
+        "nome": "Luvas de couro",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/luva/luva-couro.png",
+        "descricao": "Estas luvas flexíveis proporcionam flexibilidade e proteção."
+    },{
+        "nome": "Luvas druídicas",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/luva/luva-druidica.png",
+        "descricao": "Estas luvas flexíveis proporcionam flexibilidade e proteção."
+    },{
+        "nome": "Pulverizadores de couro",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 20,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/luva/pulverizador-couro.png",
+        "descricao": "Pontos grandes e irregulares conectam couro flexível e pêlo grosso. Apesar da falta de talento artístico, as braçadeiras são macias e quentes."
     }],
     "instrumento": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
+        "nome": "Alaude",
+        "raridade": "comum",
+        "peso": 1,
+        "preco": 14,
+        "efeitos": [""],
         "imagem": "",
-        "descricao": ""
+        "descricao": "O primeiro instrumento de um bardo, o alaúde, é ouvido em tavernas por todo reino"
+    },{
+        "nome": "Flauta",
+        "raridade": "comum",
+        "peso": 0.5,
+        "preco": 14,
+        "efeitos": [""],
+        "imagem": "",
+        "descricao": "Diz-se que Diores, o Encantador, certa vez atraiu um ninho de harpias para a morte, usando apenas uma flauta."
+    },{
+        "nome": "Tambor de mão",
+        "raridade": "comum",
+        "peso": 1.5,
+        "preco": 14,
+        "efeitos": [""],
+        "imagem": "",
+        "descricao": "A pele e a madeira deste tambor foram substituídas inúmeras vezes. É mesmo o mesmo instrumento?"
+    },{
+        "nome": "Lira",
+        "raridade": "comum",
+        "peso": 1,
+        "preco": 14,
+        "efeitos": [""],
+        "imagem": "",
+        "descricao": "Os devotos da deusa Sune sustentam que as sete cordas da lira representam as sete formas diferentes de amor."
+    },{
+        "nome": "Violino",
+        "raridade": "comum",
+        "peso": 0.55,
+        "preco": 14,
+        "efeitos": [""],
+        "imagem": "",
+        "descricao": "Um violino de cedro e nogueira rebarbada. Os pinos são um pouco arranhados, as cordas finas e desgastadas, mas a música deste instrumento ainda soaria clara e verdadeira."
     }],
     "anel": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": ""
+        "nome": "Anel 'mágico'",
+        "raridade": "comum",
+        "peso": 0.05,
+        "preco": 3,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/anel/anel-magico.png",
+        "descricao": "As runas que circundam este anel parecem ter sido arranhadas no metal com uma pedra."
+    },{
+        "nome": "Anel ametista",
+        "raridade": "comum",
+        "peso": 0.05,
+        "preco": 5,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/anel/anel-ametista.png",
+        "descricao": "Os tons legais da faixa prateada destacam a vívida pedra preciosa roxa deste anel."
+    },{
+        "nome": "Anel ametista",
+        "raridade": "comum",
+        "peso": 0.05,
+        "preco": 5,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/anel/anel-ametista-2.png",
+        "descricao": "Peça incomum, esta ametista cravejada de ouro causou alvoroço na ampla praça de Baldur's Gate"
     }],
     "escudo": [{
-        "nome": "",
-        "raridade": "",
-        "peso": 0,
-        "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": "",
-        "ca": 0
+        "nome": "Escudo com Bandas de Ferro",
+        "raridade": "comum",
+        "peso": 2.7,
+        "preco": 15,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-ferro.png",
+        "descricao": "Este espesso escudo de carvalho é reforçado com uma estrutura de ferro com martelo áspero.",
+        "ca": 2
+    },{
+        "nome": "Escudo de Metal",
+        "raridade": "comum",
+        "peso": 2.7,
+        "preco": 15,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-metal.png",
+        "descricao": "Embora o metal seja apenas de qualidade moderada, um punho orgulhoso e flamejante decora a frente deste escudo.",
+        "ca": 2
+    },{
+        "nome": "Escudo Enferrujado",
+        "raridade": "comum",
+        "peso": 2.7,
+        "preco": 15,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-enferrujado.png",
+        "descricao": "Bom para defender da flatulência perdida, mas é isso.",
+        "ca": 2
     }],
     "arma":[{
-        "nome": "Arma",
-        "raridade": "",
-        "peso": 0,
+        "nome": "Rapieira Pactuada",
+        "raridade": "comum",
+        "peso": 0.9,
         "preco": 0,
-        "efeitos": ["",""],
-        "imagem": "",
-        "descricao": "",
-        "tipo": "",
-        "modalidade": "",
-        "alcance": "",
-        "empunhadura": "",
-        "dano": "",
-        "tipoDano": "",
-        "encantamento": ["",""]
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/arma/rapieira-pactuada.png",
+        "descricao": "Um florete invocável concedido pelo patrono de um feiticeiro. Sua superfície crepita com energia interdimensional.",
+        "tipo": "rapieira",
+        "modalidade": "marcial",
+        "alcance": "corpo a corpo",
+        "empunhadura": "uma mão",
+        "dano": "1d8",
+        "tipoDano": "perfuração",
+        "encantamento": [""]
+    },{
+        "nome": "Rapieira",
+        "raridade": "comum",
+        "peso": 0.9,
+        "preco": 65,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/arma/rapieira.png",
+        "descricao": "Uma espada esbelta, mas mortal, preferida pela nobreza Waterdhaviana.",
+        "tipo": "rapieira",
+        "modalidade": "marcial",
+        "alcance": "corpo a corpo",
+        "empunhadura": "uma mão",
+        "dano": "1d8",
+        "tipoDano": "perfuração",
+        "encantamento": [""]
+    },{
+        "nome": "Lâmina Ruptura",
+        "raridade": "incomum",
+        "peso": 0.9,
+        "preco": 130,
+        "efeitos": [""],
+        "imagem": "../../../../public/images/itens/equipamentos/arma/rapieira-pactuada.png",
+        "descricao": "A ponta do florete é capaz de se dividir em farpas aquecidas caso o portador se pique para ativá-las - sacrifique por recompensa.",
+        "tipo": "rapieira",
+        "modalidade": "marcial",
+        "alcance": "corpo a corpo",
+        "empunhadura": "uma mão",
+        "dano": "1d8",
+        "tipoDano": "perfuração",
+        "encantamento": ["+ 1"]
     }]
 }

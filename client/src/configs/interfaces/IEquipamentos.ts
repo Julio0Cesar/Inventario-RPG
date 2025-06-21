@@ -11,6 +11,7 @@ export interface IEquipamentos {
 export interface IArmadura extends IEquipamentos {
   ca: number
   tipo: string
+  desvantagem: string
 }
 
 export interface IEscudo extends IEquipamentos {

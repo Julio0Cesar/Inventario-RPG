@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Box, Typography, Divider, LinearProgress, Grid, Link } from "@mui/material"
+import { Box, Typography, Divider, LinearProgress } from "@mui/material"
 import { obterEquipamentos } from "../../../services/items/obterEquipamentosService"
 import { useParams } from "react-router-dom"
 

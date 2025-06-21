@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
-import { Box, Typography, Divider, LinearProgress, Grid, Link } from "@mui/material"
+import { Box, Typography, Divider, LinearProgress, Container } from "@mui/material"
 import { obterEquipamentos } from "../../../services/items/obterEquipamentosService"
 import { useParams } from "react-router-dom"
+import TabelaEquipamentos from "./components/TabelaEquipamentos"
 
 const ListarEquipamento = () => {
     const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
@@ -9,6 +10,14 @@ const ListarEquipamento = () => {
     const [itens, setItens] = useState<any[]>([])
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState("")
+    
+    const palavrasMasculinas = ["anel", "amuleto", "calcado", "chapeu", "instrumento", "escudo"]
+
+    if (!categoria) return <p>Categoria não encontrada</p>
+    const anterior = palavrasMasculinas.includes(categoria) ? "Lista de todos os " : "Lista de todas as "
+    const posterior = "s"
+
+    const nomeCategoria = categoria === "anel" ? "anei" : categoria
 
     const fetchData = async () => {
         setLoading(true)
@@ -32,31 +41,26 @@ const ListarEquipamento = () => {
     }, [categoria])
 
     return (
-        <Box className="mb-4">
-            <Typography variant="h4" className="capitalize">
-                {categoria}
-            </Typography>
-            <Divider />
-            {loading ?(
-                <Box className="p-10 mx-20">
-                    <LinearProgress />
-                </Box>
-            ):(
-                <Grid container spacing={1} justifyContent="center" alignItems="center">
-                    {itens.map((item) => (
-                        <Box key={item.nome} className="m-5">
-                            <Link href={`${categoria}/${item.nome}`} underline="none">
-                                <Typography variant="h6" className="capitalize text-black">
-                                    {item.nome}
-                                </Typography>
-                            </Link>
-                            <Typography variant="body2">{item.descricao}</Typography>
-                        </Box>
-                    ))}
-                </Grid>
-            )}
-            {error && <p className="text-red-500">{error}</p>}
-        </Box>
+        <Container className="min-h-screen !max-w-full flex items-start justify-center">
+            <Box className="my-20 flex flex-col w-full lg:w-2/3">
+                <Typography variant="h4">
+                    {anterior}{nomeCategoria}{posterior}
+                </Typography>
+                <Divider className="!mb-8 bg-yellow-600 p-0.5"/>
+                {loading ? (
+                    <Box className="p-10 mx-20">
+                        <LinearProgress />
+                    </Box>
+                ) : (
+                    <TabelaEquipamentos 
+                        dados={itens} 
+                        categoria={categoria}
+                        colunas={["encantamento", "ca", "desvantagem", "dano", "tipoDano", "peso", "preco", "efeitos"]}
+                    />
+                )}
+                {error && <p className="text-red-500">{error}</p>}
+            </Box>
+        </Container>
     )
 }
 
