@@ -42,15 +42,15 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
   const colunasParaExibir = colunasBase.filter((coluna) =>dados.some((item) => coluna in item))
   
   return (
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} className='mb-5 border border-gray-300 dark:border-none'>
       <Table sx={{ minWidth: 300 }} aria-label="simple table">
-        <TableHead className='bg-[rgba(15,15,15,1)]'>
+        <TableHead className='dark:bg-[rgba(15,15,15,1)] bg-gray-100 !border-gray-300'>
           <TableRow>
-            <TableCell align="center" className="capitalize !text-white">
+            <TableCell align="center" className="capitalize dark:!text-gray-300">
               {categoria}
             </TableCell>
             {colunasParaExibir.map((coluna) => (
-              <TableCell key={coluna} align="center" className="capitalize !text-white">
+              <TableCell key={coluna} align="center" className="capitalize dark:!text-gray-300">
                 {nomeColunaMap[coluna] || coluna}
               </TableCell>
             ))}
@@ -59,7 +59,7 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
 
         <TableBody>
           {dados.map((row) => (
-            <TableRow key={row.nome} className='bg-[rgba(30,30,30,1)]'>
+            <TableRow key={row.nome} className='dark:bg-[rgba(30,30,30,1)]'>
               <TableCell className="flex flex-col w-60">
                 <Box className="flex flex-col justify-center items-center !shadow-none">
                     <Link href={`${categoria}/${row.nome}`} underline="none">
@@ -70,8 +70,8 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
                       />
                     </Link>
                   <CardContent>
-                    <Link href={`${categoria}/${row.nome}`} underline="none">
-                      <Typography className="text-white text-center">{row.nome}</Typography>
+                    <Link href={`${categoria}/${row.nome}`} color="inherit" className='text-black dark:!text-gray-300'>
+                      <Typography className="dark:text-gray-300 text-black text-center">{row.nome}</Typography>
                     </Link>
                   </CardContent>
                 </Box>
@@ -89,7 +89,7 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
                   <TableCell
                     key={coluna}
                     align="center"
-                    className={`!text-white ${larguraColunas[coluna] || "w-32"}`}
+                    className={`dark:!text-gray-300 ${larguraColunas[coluna] || "w-32"}`}
                   >
                     {textoFormatado}
                   </TableCell>

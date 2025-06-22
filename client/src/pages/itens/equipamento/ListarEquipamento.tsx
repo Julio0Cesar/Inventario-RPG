@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react"
-import { Box, Typography, Divider, LinearProgress, Container } from "@mui/material"
+import { Box, Typography, Divider, LinearProgress } from "@mui/material"
 import { obterEquipamentos } from "../../../services/items/obterEquipamentosService"
 import { useParams } from "react-router-dom"
 import TabelaEquipamentos from "./components/TabelaEquipamentos"
+import ItemContainer from "../components/ItemContainer"
 
 const ListarEquipamento = () => {
     const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
@@ -41,26 +42,24 @@ const ListarEquipamento = () => {
     }, [categoria])
 
     return (
-        <Container className="min-h-screen !max-w-full flex items-start justify-center">
-            <Box className="my-20 flex flex-col w-full lg:w-2/3">
-                <Typography variant="h4">
-                    {anterior}{nomeCategoria}{posterior}
-                </Typography>
-                <Divider className="!mb-8 bg-yellow-600 p-[0.2px]"/>
-                {loading ? (
-                    <Box className="p-10 mx-20">
-                        <LinearProgress />
-                    </Box>
-                ) : (
-                    <TabelaEquipamentos 
-                        dados={itens} 
-                        categoria={categoria}
-                        colunas={["encantamento", "ca", "bonusCa", "desvantagem", "dano", "tipoDano", "peso", "preco", "efeitos"]}
-                    />
-                )}
-                {error && <p className="text-red-500">{error}</p>}
-            </Box>
-        </Container>
+        <ItemContainer destino='/itens/'>
+            <Typography variant="h4">
+                {anterior}{nomeCategoria}{posterior}
+            </Typography>
+            <Divider className="!mb-8 bg-yellow-600 p-[0.2px]"/>
+            {loading ? (
+                <Box className="p-10 mx-20">
+                    <LinearProgress />
+                </Box>
+            ) : (
+                <TabelaEquipamentos 
+                    dados={itens} 
+                    categoria={categoria}
+                    colunas={["encantamento", "ca", "bonusCa", "desvantagem", "dano", "tipoDano", "peso", "preco", "efeitos"]}
+                />
+            )}
+            {error && <p className="text-red-500">{error}</p>}
+        </ItemContainer>
     )
 }
 

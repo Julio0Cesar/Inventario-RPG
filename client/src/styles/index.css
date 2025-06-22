@@ -1,6 +1,21 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
   padding-right: 0 !important;
   overflow: auto !important;
+  background-image: url('../../public/images/wallpaper/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(10, 10, 10, 0.9);
+  z-index: -1; 
 }

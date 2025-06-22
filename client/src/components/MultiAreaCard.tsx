@@ -7,7 +7,7 @@ const MultiAreaCard: FC<IHomeCard> = ({ imagem, titulo, descricao, link }) => {
   const navigate = useNavigate()
   const handleClick = () =>{navigate(link)}
   return (
-    <Card elevation={20} className="m-4 max-w-lg p-4 !bg-gray-50 !rounded-lg !transition-all !duration-300 hover:-translate-y-0.5">
+    <Card elevation={20} className="m-4 max-w-lg p-4 !bg-gray-50 dark:!bg-[rgba(35,35,35,1)] dark:!text-gray-300 !rounded-lg !transition-all !duration-300 hover:-translate-y-0.5">
         <CardMedia
           className="aspect-video w-full object-cover rounded-lg"
           component="img"
@@ -18,7 +18,7 @@ const MultiAreaCard: FC<IHomeCard> = ({ imagem, titulo, descricao, link }) => {
           <Typography gutterBottom variant="h5" component="div">
             {titulo}
           </Typography>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          <Typography variant="body2" className="dark:text-gray-300">
             {descricao}
           </Typography>
         </CardContent>

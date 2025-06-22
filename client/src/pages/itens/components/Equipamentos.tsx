@@ -36,7 +36,7 @@ const Equipamentos = () => {
                     Equipamentos
                 </Typography>
             </Box>
-            <Divider/>
+            <Divider className="!mb-8 bg-yellow-600 p-[0.2px]"/>
             {loading ?(
                 <Box className="p-10 mx-20">
                     <LinearProgress />
@@ -45,8 +45,8 @@ const Equipamentos = () => {
                 <Grid container spacing={1} justifyContent="center" alignItems="center">
                     {Object.keys(equipamentoData || {}).map((categoria) => (
                         <Box key={categoria} className="m-5">
-                            <Link href={`itens/equipamento/${categoria}`} underline="none">
-                                <Button variant="outlined" className="capitalize !text-black rounded-2xl !border-black hover:!bg-gray-200">
+                            <Link href={`/itens/equipamento/${categoria}`} underline="none">
+                                <Button  variant="contained" className="capitalize rounded-2xl">
                                     {nomeCategoriaMap[categoria] || categoria}
                                 </Button>
                             </Link>
