@@ -1,4 +1,4 @@
-import { Box, Divider, Grid, LinearProgress, Link, Typography } from "@mui/material"
+import { Box, Button, Divider, Grid, LinearProgress, Link, Typography } from "@mui/material"
 import { useEffect, useState } from "react"
 import { obterEquipamentos } from "../../../services/items/obterEquipamentosService"
 import { nomeCategoriaMap } from "../components/interface/nomeCategoriaMap"
@@ -46,9 +46,9 @@ const Equipamentos = () => {
                     {Object.keys(equipamentoData || {}).map((categoria) => (
                         <Box key={categoria} className="m-5">
                             <Link href={`itens/equipamento/${categoria}`} underline="none">
-                                <Typography variant="h6" className="capitalize text-black">
+                                <Button variant="outlined" className="capitalize !text-black rounded-2xl !border-black hover:!bg-gray-200">
                                     {nomeCategoriaMap[categoria] || categoria}
-                                </Typography>
+                                </Button>
                             </Link>
                         </Box>
                     ))}
