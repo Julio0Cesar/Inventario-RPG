@@ -4,13 +4,14 @@ export interface IEquipamentos {
   peso: number
   preco: number
   efeitos: string[]
+  icone: string
   imagem: string
+  tipo: string
   descricao: string
 }
 
 export interface IArmadura extends IEquipamentos {
   ca: number
-  tipo: string
   desvantagem: string
 }
 
@@ -19,11 +20,12 @@ export interface IEscudo extends IEquipamentos {
 }
 
 export interface IArma extends IEquipamentos {
-  tipo: string 
   modalidade: string
   alcance: string
   empunhadura: string
   dano: string  
   tipoDano: string
   encantamento: string[] 
+  propriedade: string  
+  acao: string
 }

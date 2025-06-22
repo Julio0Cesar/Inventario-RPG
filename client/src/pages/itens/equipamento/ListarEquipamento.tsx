@@ -46,7 +46,7 @@ const ListarEquipamento = () => {
                 <Typography variant="h4">
                     {anterior}{nomeCategoria}{posterior}
                 </Typography>
-                <Divider className="!mb-8 bg-yellow-600 p-0.5"/>
+                <Divider className="!mb-8 bg-yellow-600 p-[0.2px]"/>
                 {loading ? (
                     <Box className="p-10 mx-20">
                         <LinearProgress />

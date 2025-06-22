@@ -1,5 +1,5 @@
 import type { IArma, IArmadura, IEquipamentos, IEscudo } from '../../../../configs/interfaces/IEquipamentos'
-import { Box, CardContent, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
+import { Box, CardContent, Link, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
 import { nomeColunaMap } from './interface/nomeColunaMap'
 
 
@@ -62,13 +62,17 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
             <TableRow key={row.nome} className='bg-[rgba(30,30,30,1)]'>
               <TableCell className="flex flex-col w-60">
                 <Box className="flex flex-col justify-center items-center !shadow-none">
-                  <img
-                    className={`!w-auto object-cover rounded-lg border ${getRaridadeStyle(row.raridade)}`}
-                    src={row.imagem}
-                    alt={row.nome}
-                  />
+                    <Link href={`${categoria}/${row.nome}`} underline="none">
+                      <img
+                        className={`!w-auto object-cover rounded-lg border ${getRaridadeStyle(row.raridade)}`}
+                        src={row.icone}
+                        alt={row.nome}
+                      />
+                    </Link>
                   <CardContent>
-                    <Typography className="text-white text-center">{row.nome}</Typography>
+                    <Link href={`${categoria}/${row.nome}`} underline="none">
+                      <Typography className="text-white text-center">{row.nome}</Typography>
+                    </Link>
                   </CardContent>
                 </Box>
               </TableCell>
