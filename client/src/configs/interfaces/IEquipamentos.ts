@@ -8,6 +8,7 @@ export interface IEquipamentos {
   imagem: string
   tipo: string
   descricao: string
+  propriedade: string[]
 }
 
 export interface IArmadura extends IEquipamentos {
@@ -26,6 +27,5 @@ export interface IArma extends IEquipamentos {
   dano: string  
   tipoDano: string
   encantamento: string[] 
-  propriedade: string  
   acao: string
 }

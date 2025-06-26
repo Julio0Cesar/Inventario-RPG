@@ -8,7 +8,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/amuleto/amuleto-barnabu.png",
         "imagem": "../../../../public/images/itens/equipamentos/amuleto/amuleto-barnabu.png",
         "tipo": "amuleto",
-        "descricao": "Colar o Mestre GNoll deu Barnabus quando ela o conheceu."
+        "descricao": "Colar o Mestre GNoll deu Barnabus quando ela o conheceu.",
+        "propriedade": [""]
     },{
         "nome": "Amuleto de bronze",
         "raridade": "comum",
@@ -18,7 +19,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/amuleto/amuleto-bronze.png",
         "imagem": "../../../../public/images/itens/equipamentos/amuleto/amuleto-bronze.png",
         "tipo": "amuleto",
-        "descricao": "Embora brilhe intensamente, este colar cheira distintamente a ferrugem."
+        "descricao": "Embora brilhe intensamente, este colar cheira distintamente a ferrugem.",
+        "propriedade": [""]
     },{
         "nome": "Pingente de bronze",
         "raridade": "comum",
@@ -28,7 +30,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/amuleto/pingente-bronze.png",
         "imagem": "../../../../public/images/itens/equipamentos/amuleto/pingente-bronze.png",
         "tipo": "amuleto",
-        "descricao": "Os elos de bronze entrelaçados deste colar tilintam suavemente toda vez que você se move."
+        "descricao": "Os elos de bronze entrelaçados deste colar tilintam suavemente toda vez que você se move.",
+        "propriedade": [""]
     }],
     "armadura": [{
         "nome": "Armadura de Couro",
@@ -41,7 +44,8 @@
         "descricao": "Manchas escuras e confusas revestem as cavas do peitoral de couro bem usado.",
         "ca": 11,
         "tipo": "Armadura Leve",
-        "desvantagem": "não"
+        "desvantagem": "não",
+        "propriedade": [""]
     },{
         "nome": "Armadura de Couro Druida",
         "raridade": "comum",
@@ -53,7 +57,8 @@
         "descricao": "Manchas escuras e confusas revestem as cavas do peitoral de couro bem usado.",
         "ca": 11,
         "tipo": "Armadura Leve",
-        "desvantagem": "não"
+        "desvantagem": "não",
+        "propriedade": [""]
     },{
         "nome": "Armadura Robe Selnite",
         "raridade": "comum",
@@ -65,7 +70,8 @@
         "descricao": "Manchas escuras e confusas revestem as cavas do peitoral de couro bem usado.",
         "ca": 11,
         "tipo": "Armadura Leve",
-        "desvantagem": "não"
+        "desvantagem": "não",
+        "propriedade": [""]
     }],
     "capa": [{
         "nome": "Capa Simples",
@@ -76,7 +82,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/capa/capa.png",
         "imagem": "../../../../public/images/itens/equipamentos/capa/capa.png",
         "tipo": "capa",
-        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar."
+        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar.",
+        "propriedade": [""]
     },{
         "nome": "Capa Rígida",
         "raridade": "comum",
@@ -86,7 +93,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/capa/capa-2.png",
         "imagem": "../../../../public/images/itens/equipamentos/capa/capa-2.png",
         "tipo": "capa",
-        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar."
+        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar.",
+        "propriedade": [""]
     },{
         "nome": "Capa Sólida",
         "raridade": "comum",
@@ -96,7 +104,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/capa/capa-3.png",
         "imagem": "../../../../public/images/itens/equipamentos/capa/capa-3.png",
         "tipo": "capa",
-        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar."
+        "descricao": "Tecido de lã pesada, este manto é de marca sólida, embora um tanto rígido de usar.",
+        "propriedade": [""]
     }],
     "calcado": [{
         "nome": "Botas bem cuidadas",
@@ -107,7 +116,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/calcado/bota-bem-cuidada.png",
         "imagem": "../../../../public/images/itens/equipamentos/calcado/bota-bem-cuidada.png",
         "tipo": "botas",
-        "descricao": "Essas botas são bem conservadas e limpas, embora suas solas sejam finas devido ao desgaste."
+        "descricao": "Essas botas são bem conservadas e limpas, embora suas solas sejam finas devido ao desgaste.",
+        "propriedade": [""]
     },{
         "nome": "Botas habilmente calçadas",
         "raridade": "comum",
@@ -117,7 +127,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/calcado/bota-habilmente-calcada.png",
         "imagem": "../../../../public/images/itens/equipamentos/calcado/bota-habilmente-calcada.png",
         "tipo": "botas",
-        "descricao": "Feitas de couro resistente e bem usado, essas botas sobreviveram a anos de uso e podem sobreviver a muitos mais."
+        "descricao": "Feitas de couro resistente e bem usado, essas botas sobreviveram a anos de uso e podem sobreviver a muitos mais.",
+        "propriedade": [""]
     },{
         "nome": "Botas de couro drow",
         "raridade": "comum",
@@ -127,7 +138,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/calcado/bota-de-couro-drow.png",
         "imagem": "../../../../public/images/itens/equipamentos/calcado/bota-de-couro-drow.png",
         "tipo": "botas",
-        "descricao": "Linhas rasas em forma de teia foram colocadas nessas botas de couro cozido."
+        "descricao": "Linhas rasas em forma de teia foram colocadas nessas botas de couro cozido.",
+        "propriedade": [""]
     }],
     "chapeu": [{
         "nome": "Chapéu de abas",
@@ -138,7 +150,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/chapeu/chapeu-abas.png",
         "imagem": "../../../../public/images/itens/equipamentos/chapeu/chapeu-abas.png",
         "tipo": "capacetes",
-        "descricao": "Este chapéu feiticeiro tem um coelhinho bordado dentro de seu forro - o coelho é chamado de bola de neve, e uma vez que ele foi perdido, para nunca ser encontrado."
+        "descricao": "Este chapéu feiticeiro tem um coelhinho bordado dentro de seu forro - o coelho é chamado de bola de neve, e uma vez que ele foi perdido, para nunca ser encontrado.",
+        "propriedade": [""]
     },{
         "nome": "Chapéu Bordado",
         "raridade": "comum",
@@ -148,7 +161,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/chapeu/chapeu-bordado.png",
         "imagem": "../../../../public/images/itens/equipamentos/chapeu/chapeu-bordado.png",
         "tipo": "capacetes",
-        "descricao": "Asas prateadas espalhadas sobre o couro rígido e inflexível."
+        "descricao": "Asas prateadas espalhadas sobre o couro rígido e inflexível.",
+        "propriedade": [""]
     },{
         "nome": "Chapéu foleiro",
         "raridade": "comum",
@@ -158,7 +172,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/chapeu/chapeu-foleiro.png",
         "imagem": "../../../../public/images/itens/equipamentos/chapeu/chapeu-foleiro.png",
         "tipo": "capacetes",
-        "descricao": "Para o contador de histórias exigente, o fiandeiro de histórias e a personalidade pavão."
+        "descricao": "Para o contador de histórias exigente, o fiandeiro de histórias e a personalidade pavão.",
+        "propriedade": [""]
     }],
     "luva": [{
         "nome": "Luvas de couro",
@@ -169,7 +184,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/luva/luva-couro.png",
         "imagem": "../../../../public/images/itens/equipamentos/luva/luva-couro.png",
         "tipo": "luva",
-        "descricao": "Estas luvas flexíveis proporcionam flexibilidade e proteção."
+        "descricao": "Estas luvas flexíveis proporcionam flexibilidade e proteção.",
+        "propriedade": [""]
     },{
         "nome": "Luvas druídicas",
         "raridade": "comum",
@@ -179,7 +195,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/luva/luva-druidica.png",
         "imagem": "../../../../public/images/itens/equipamentos/luva/luva-druidica.png",
         "tipo": "luva",
-        "descricao": "Estas luvas flexíveis proporcionam flexibilidade e proteção."
+        "descricao": "Estas luvas flexíveis proporcionam flexibilidade e proteção.",
+        "propriedade": [""]
     },{
         "nome": "Pulverizadores de couro",
         "raridade": "comum",
@@ -189,7 +206,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/luva/pulverizador-couro.png",
         "imagem": "../../../../public/images/itens/equipamentos/luva/pulverizador-couro.png",
         "tipo": "luva",
-        "descricao": "Pontos grandes e irregulares conectam couro flexível e pêlo grosso. Apesar da falta de talento artístico, as braçadeiras são macias e quentes."
+        "descricao": "Pontos grandes e irregulares conectam couro flexível e pêlo grosso. Apesar da falta de talento artístico, as braçadeiras são macias e quentes.",
+        "propriedade": [""]
     }],
     "instrumento": [{
         "nome": "Alaude",
@@ -200,7 +218,8 @@
         "icone": "",
         "imagem": "",
         "tipo": "instrumento",
-        "descricao": "O primeiro instrumento de um bardo, o alaúde, é ouvido em tavernas por todo reino"
+        "descricao": "O primeiro instrumento de um bardo, o alaúde, é ouvido em tavernas por todo reino",
+        "propriedade": [""]
     },{
         "nome": "Flauta",
         "raridade": "comum",
@@ -210,7 +229,8 @@
         "icone": "",
         "imagem": "",
         "tipo": "instrumento",
-        "descricao": "Diz-se que Diores, o Encantador, certa vez atraiu um ninho de harpias para a morte, usando apenas uma flauta."
+        "descricao": "Diz-se que Diores, o Encantador, certa vez atraiu um ninho de harpias para a morte, usando apenas uma flauta.",
+        "propriedade": [""]
     },{
         "nome": "Tambor de mão",
         "raridade": "comum",
@@ -220,7 +240,8 @@
         "icone": "",
         "imagem": "",
         "tipo": "instrumento",
-        "descricao": "A pele e a madeira deste tambor foram substituídas inúmeras vezes. É mesmo o mesmo instrumento?"
+        "descricao": "A pele e a madeira deste tambor foram substituídas inúmeras vezes. É mesmo o mesmo instrumento?",
+        "propriedade": [""]
     },{
         "nome": "Lira",
         "raridade": "comum",
@@ -230,7 +251,8 @@
         "icone": "",
         "imagem": "",
         "tipo": "instrumento",
-        "descricao": "Os devotos da deusa Sune sustentam que as sete cordas da lira representam as sete formas diferentes de amor."
+        "descricao": "Os devotos da deusa Sune sustentam que as sete cordas da lira representam as sete formas diferentes de amor.",
+        "propriedade": [""]
     },{
         "nome": "Violino",
         "raridade": "comum",
@@ -240,7 +262,8 @@
         "icone": "",
         "imagem": "",
         "tipo": "instrumento",
-        "descricao": "Um violino de cedro e nogueira rebarbada. Os pinos são um pouco arranhados, as cordas finas e desgastadas, mas a música deste instrumento ainda soaria clara e verdadeira."
+        "descricao": "Um violino de cedro e nogueira rebarbada. Os pinos são um pouco arranhados, as cordas finas e desgastadas, mas a música deste instrumento ainda soaria clara e verdadeira.",
+        "propriedade": [""]
     }],
     "anel": [{
         "nome": "Anel 'Mágico'",
@@ -251,7 +274,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/anel/anel-magico.png",
         "imagem": "../../../../public/images/itens/equipamentos/anel/anel-magico.png",
         "tipo": "anel",
-        "descricao": "As runas que circundam este anel parecem ter sido arranhadas no metal com uma pedra."
+        "descricao": "As runas que circundam este anel parecem ter sido arranhadas no metal com uma pedra.",
+        "propriedade": [""]
     },{
         "nome": "Anel Ametista",
         "raridade": "comum",
@@ -261,7 +285,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/anel/anel-ametista.png",
         "imagem": "../../../../public/images/itens/equipamentos/anel/anel-ametista.png",
         "tipo": "anel",
-        "descricao": "Os tons legais da faixa prateada destacam a vívida pedra preciosa roxa deste anel."
+        "descricao": "Os tons legais da faixa prateada destacam a vívida pedra preciosa roxa deste anel.",
+        "propriedade": [""]
     },{
         "nome": "Anel Dourado de Ametista",
         "raridade": "comum",
@@ -271,7 +296,8 @@
         "icone": "../../../../public/icons/itens/equipamentos/anel/anel-ametista-2.png",
         "imagem": "../../../../public/images/itens/equipamentos/anel/anel-ametista-2.png",
         "tipo": "anel",
-        "descricao": "Peça incomum, esta ametista cravejada de ouro causou alvoroço na ampla praça de Baldur's Gate"
+        "descricao": "Peça incomum, esta ametista cravejada de ouro causou alvoroço na ampla praça de Baldur's Gate",
+        "propriedade": [""]
     }],
     "escudo": [{
         "nome": "Escudo com Bandas de Ferro",
@@ -283,7 +309,8 @@
         "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-ferro.png",
         "tipo": "escudo",
         "descricao": "Este espesso escudo de carvalho é reforçado com uma estrutura de ferro com martelo áspero.",
-        "bonusCa": 2
+        "bonusCa": 2,
+        "propriedade": [""]
     },{
         "nome": "Escudo de Metal",
         "raridade": "comum",
@@ -294,7 +321,8 @@
         "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-metal.png",
         "tipo": "escudo",
         "descricao": "Embora o metal seja apenas de qualidade moderada, um punho orgulhoso e flamejante decora a frente deste escudo.",
-        "bonusCa": 2
+        "bonusCa": 2,
+        "propriedade": [""]
     },{
         "nome": "Escudo Enferrujado",
         "raridade": "comum",
@@ -305,7 +333,8 @@
         "imagem": "../../../../public/images/itens/equipamentos/escudo/escudo-enferrujado.png",
         "tipo": "escudo",
         "descricao": "Bom para defender da flatulência perdida, mas é isso.",
-        "bonusCa": 2
+        "bonusCa": 2,
+        "propriedade": [""]
     }],
     "arma":[{
         "nome": "Rapieira Pactuada",
@@ -323,7 +352,7 @@
         "dano": "1d8",
         "tipoDano": "perfuração",
         "encantamento": [""],
-        "propriedade": "",
+        "propriedade": [""],
         "acao": ""
     },{
         "nome": "Rapieira",
@@ -341,7 +370,7 @@
         "dano": "1d8",
         "tipoDano": "perfuração",
         "encantamento": [""],
-        "propriedade": "",
+        "propriedade": [""],
         "acao": ""
     },{
         "nome": "Lâmina Ruptura",
@@ -359,7 +388,7 @@
         "dano": "1d8",
         "tipoDano": "perfuração",
         "encantamento": ["+ 1"],
-        "propriedade": "",
+        "propriedade": [""],
         "acao": ""
     }]
 }

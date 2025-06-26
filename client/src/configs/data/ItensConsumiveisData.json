@@ -1,0 +1,72 @@
+{
+    "flecha": [{
+        "nome": "",
+        "raridade": "comum",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": [""],
+        "icone": "",
+        "imagem": "",
+        "tipo": "flecha",
+        "descricao": ""
+    }],
+    "revestimento": [{
+        "nome": "a",
+        "raridade": "comum",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": [""],
+        "icone": "",
+        "imagem": "",
+        "tipo": "revestimento",
+        "descricao": "",
+        "ingredientes": [""]
+    }],
+    "elixir": [{
+        "nome": "",
+        "raridade": "comum",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": [""],
+        "icone": "",
+        "imagem": "",
+        "tipo": "elixir",
+        "descricao": "",
+        "ingredientes": [""]
+    }],
+    "pocao": [{
+        "nome": "",
+        "raridade": "comum",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": [""],
+        "icone": "",
+        "imagem": "",
+        "tipo": "pocao",
+        "descricao": "",
+        "ingredientes": [""]
+    }],
+    "granada": [{
+        "nome": "",
+        "raridade": "comum",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": [""],
+        "icone": "",
+        "imagem": "",
+        "tipo": "granada",
+        "descricao": "",
+        "ingredientes": [""]
+    }],
+    "pergaminho": [{
+        "nome": "",
+        "raridade": "comum",
+        "peso": 0,
+        "preco": 0,
+        "efeitos": [""],
+        "icone": "",
+        "imagem": "",
+        "tipo": "pergaminho",
+        "descricao": ""
+    }]
+}

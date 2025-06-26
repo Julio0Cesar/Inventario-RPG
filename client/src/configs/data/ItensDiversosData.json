@@ -1,0 +1,33 @@
+{
+    "livro": [{
+        "nome": "a",
+        "autor": "",
+        "peso": 0,
+        "preco": 0,
+        "icone": "",
+        "imagem": "",
+        "tipo": "livro",
+        "descricao": "",
+        "texto": ""
+    }],
+    "nota": [{
+        "nome": "",
+        "autor": "",
+        "peso": 0,
+        "preco": 0,
+        "icone": "",
+        "imagem": "",
+        "tipo": "nota",
+        "descricao": "",
+        "texto": ""
+    }],
+    "chave": [{
+        "nome": "",
+        "peso": 0,
+        "preco": 0,
+        "icone": "",
+        "imagem": "",
+        "tipo": "diversos",
+        "descricao": ""
+    }]
+}

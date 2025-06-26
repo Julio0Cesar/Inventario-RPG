@@ -1,42 +1,18 @@
-import type { IArma, IArmadura, IEquipamentos, IEscudo } from '../../../../configs/interfaces/IEquipamentos'
 import { Box, CardContent, Link, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
-import { nomeColunaMap } from './interface/nomeColunaMap'
-
+import type { IArma, IArmadura, IEquipamentos, IEscudo } from '../../../../configs/interfaces/IEquipamentos'
+import { nomeColunaMap } from '../../../../utils/tabelaParametros'
+import { getRaridadeStyleListar } from '../../../../utils/getRaridadeStyle'
+import type { IConsumiveis, IIngrediente } from '../../../../configs/interfaces/IConsumiveis'
+import TabelaItensCell from './TabelaItensCell'
+import type { IAutor, IDiversos } from '../../../../configs/interfaces/IDiversos'
 
 type Props = {
-  dados: IEquipamentos[] | IArma[] | IArmadura[] | IEscudo[]
+  dados: IEquipamentos[] | IArma[] | IArmadura[] | IEscudo[] | IConsumiveis[] | IIngrediente[] | IDiversos[] | IAutor[]
   categoria?: string
   colunas?: string[]
 }
 
-const getRaridadeStyle = (raridade: string) => {
-  switch (raridade?.toLowerCase()) {
-    case "comum":
-      return "border-gray-400 bg-[rgba(160,160,160,0.151)]";
-    case "incomum":
-      return "border-green-400 bg-[rgba(50,128,50,0.150)]";
-    case "raro":
-      return "border-blue-400 bg-[rgba(93,93,255,0.151)]";
-    case "epico":
-      return "border-yellow-400 bg-[rgba(255,255,93,0.151)]";
-    default:
-      return "border-white bg-transparent";
-  }
-}
-const larguraColunas: Record<string, string> = {
-  efeitos: "w-auto",
-  encantamento: "w-28",
-  preco: "w-28",
-  peso: "w-28",
-}
-
-const sufixoMap: Record<string, string> = {
-  peso: "Kg",
-  preco: "PO",
-}
-
-
-const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
+const TabelaItens = ({ dados, categoria, colunas }: Props) => {
   const todasAsChaves = Object.keys(dados.reduce((acc, item) => ({ ...acc, ...item }), {}))
   const colunasBase = colunas || todasAsChaves.filter((key) => !["nome", "imagem", "descricao"].includes(key))
   const colunasParaExibir = colunasBase.filter((coluna) =>dados.some((item) => coluna in item))
@@ -64,7 +40,7 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
                 <Box className="flex flex-col justify-center items-center !shadow-none">
                     <Link href={`${categoria}/${row.nome}`} underline="none">
                       <img
-                        className={`!w-auto object-cover rounded-lg border ${getRaridadeStyle(row.raridade)}`}
+                        className={`!w-auto object-cover rounded-lg border ${getRaridadeStyleListar(row.raridade!)}`}
                         src={row.icone}
                         alt={row.nome}
                       />
@@ -76,25 +52,13 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
                   </CardContent>
                 </Box>
               </TableCell>
-              {colunasParaExibir.map((coluna) => {
-                const valor = (row as any)[coluna]
-                const texto = Array.isArray(valor) ? valor.join(", ") : valor
-
-                const textoFormatado =
-                  texto !== undefined
-                    ? `${texto} ${sufixoMap[coluna] || ""}`.trim()
-                    : "-"
-
-                return (
-                  <TableCell
-                    key={coluna}
-                    align="center"
-                    className={`dark:!text-gray-300 ${larguraColunas[coluna] || "w-32"}`}
-                  >
-                    {textoFormatado}
-                  </TableCell>
-                )
-              })}
+              {colunasParaExibir.map((coluna) => (
+                <TabelaItensCell
+                  key={coluna}
+                  coluna={coluna}
+                  valor={(row as any)[coluna]}
+                />
+              ))}
             </TableRow>
           ))}
         </TableBody>
@@ -103,4 +67,4 @@ const TabelaEquipamentos = ({ dados, categoria, colunas }: Props) => {
   )
 }
 
-export default TabelaEquipamentos
+export default TabelaItens

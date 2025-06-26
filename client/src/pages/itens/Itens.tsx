@@ -1,7 +1,7 @@
-import Equipamentos from "./components/Equipamentos"
-import Consumiveis from "./components/Consumiveis"
-import Diversos from "./components/Diversos"
-import ItemContainer from "./components/ItemContainer";
+import Equipamentos from "./equipamento/Equipamentos"
+import Consumiveis from "./consumiveis/Consumiveis"
+import Diversos from "./diversos/Diversos"
+import ItemContainer from "./components/container/ItemContainer"
 
 const Itens = () => {
     return(
